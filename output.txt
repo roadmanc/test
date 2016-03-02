@@ -1,0 +1,13 @@
+Current Inventory:
+Product: A Quantity: 2
+Product: B Quantity: 3
+Product: C Quantity: 1
+Product: D Quantity: 0
+Product: E Quantity: 0
+
+Order tracking logs
+4: 1,0,1,0,0::1,0,1,0,0::0,0,0,0,0
+4: 0,0,0,0,5::0,0,0,0,0::0,0,0,0,5
+4: 0,0,0,4,0::0,0,0,0,0::0,0,0,4,0
+4: 1,0,1,0,0::1,0,0,0,0::0,0,1,0,0
+4: 0,3,0,0,0::0,3,0,0,0::0,0,0,0,0
