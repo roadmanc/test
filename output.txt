@@ -5,9 +5,16 @@ Product: C Quantity: 1
 Product: D Quantity: 0
 Product: E Quantity: 0
 
+below is the simulated orders
+{'Lines': [{'Product': 'A', 'Quantity': '1'}, {'Product': 'C', 'Quantity': '1'}]}
+{'Lines': [{'Product': 'E', 'Quantity': '5'}]}
+{'Lines': [{'Product': 'D', 'Quantity': '4'}]}
+{'Lines': [{'Product': 'A', 'Quantity': '1'}, {'Product': 'C', 'Quantity': '1'}]}
+{'Lines': [{'Product': 'B', 'Quantity': '3'}]}
+{'Lines': [{'Product': 'D', 'Quantity': '4'}]}
 Order tracking logs
-4: 1,0,1,0,0::1,0,1,0,0::0,0,0,0,0
-4: 0,0,0,0,5::0,0,0,0,0::0,0,0,0,5
-4: 0,0,0,4,0::0,0,0,0,0::0,0,0,4,0
-4: 1,0,1,0,0::1,0,0,0,0::0,0,1,0,0
-4: 0,3,0,0,0::0,3,0,0,0::0,0,0,0,0
+1: 1,0,1,0,0::1,0,1,0,0::0,0,0,0,0
+1: 0,0,0,0,5::0,0,0,0,0::0,0,0,0,5
+2: 0,0,0,4,0::0,0,0,0,0::0,0,0,4,0
+3: 1,0,1,0,0::1,0,0,0,0::0,0,1,0,0
+3: 0,3,0,0,0::0,3,0,0,0::0,0,0,0,0

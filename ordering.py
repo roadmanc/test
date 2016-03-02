@@ -55,7 +55,6 @@ class inventoryController(object):
         quantity_backordered = self._parse_backordered(order_status)
         log_entry = "{}: {}".format(header,"::".join([quantity_on_each_line,quantity_allocated,quantity_backordered]))
         self.order_log.append(log_entry)
-        return quantity_on_each_line
 
     def _parse_quantity(self, lines):
         output = []
@@ -173,6 +172,11 @@ test_order_list = [{"Lines":[{"Product": "A", "Quantity": "1"}, {"Product": "C",
                    {"Lines":[{"Product": "A", "Quantity": "1"}, {"Product": "C", "Quantity": "1"}]},
                    {"Lines":[{"Product": "B", "Quantity": "3"}]},
                    {"Lines":[{"Product": "D", "Quantity": "4"}]}]
+
+# display simulated order list
+print "below is the simulated orders"
+for line in test_order_list:
+    print "%s" % (line)
 
 #start client threads
 for id in client_list:
