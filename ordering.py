@@ -4,7 +4,7 @@ import time
 
 class inventoryController(object):
     """
-    inventory controller class to whole logic to manage inventory
+    inventory controller class to whole logic to manage inventory.
     """
 
     def __init__(self, **items):
