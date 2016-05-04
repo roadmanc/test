@@ -5,5 +5,7 @@ python:
 branches:
   only:
     - master
+script:
+  - echo "abc"
 after_success:
-    python tests/test_all_of_the_units.py
+    python ./start_test.py
