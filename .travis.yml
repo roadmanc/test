@@ -8,5 +8,5 @@ branches:
 script:
   - echo "abc"
 after_success:
-    ls
+    touch /tmp/abc
     #python ./start_test.py
