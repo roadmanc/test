@@ -8,4 +8,5 @@ branches:
 script:
   - echo "abc"
 after_success:
-    python ./start_test.py
+    ls
+    #python ./start_test.py
