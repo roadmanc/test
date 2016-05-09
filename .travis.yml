@@ -1,12 +1,12 @@
 language: python
-python:
-  - "2.7"
-# command to install dependencies
+python: '2.7'
 branches:
-  only:
-    - master
+  only: master
+install: echo "skip install"
 script:
-  - echo "abc"
+- echo "abc"
 after_success:
-    touch /tmp/abc
-    #python ./start_test.py
+- touch /tmp/abc
+before_install:
+- openssl aes-256-cbc -K $encrypted_1471d27ab819_key -iv $encrypted_1471d27ab819_iv
+  -in id_rsa_travis.enc -out id_rsa_travis -d
